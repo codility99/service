@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: fincore-container
-          image: localhost/fincore/fincore:v43
+          image: 10.1.2.58:80/fincore/fincore:v8
           imagePullPolicy: Always
           ports:
             - containerPort: 80
